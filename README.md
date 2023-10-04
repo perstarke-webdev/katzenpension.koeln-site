@@ -8,4 +8,4 @@ Based upon [Jekyll](https://jekyllrb.org) and the [So Simple Theme](https://gith
 
 ## License
 This work is copyrighted - no parts of it may be copied, stored or otherwise re-used without prior written consent
-of the author [Sabrina Stammel](mailto:info@katzenpension.koeln)
+of the author [Sabrina Stammel](mailto:sabrina.stammel@web.de)
