@@ -18,6 +18,30 @@ Colors
 
 
 
+/*
+General styles
+*/
+
+.text {
+    margin: 0 50px;
+}
+
+@media (max-width: 768px) {
+    .text {
+        margin: 0 25px;
+    }
+}
+
+
+
+/*
+Positioning
+*/
+
+.margin-top {
+    margin-top: 30px;
+}
+
 
 
 
