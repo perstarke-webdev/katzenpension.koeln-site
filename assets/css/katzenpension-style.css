@@ -6,14 +6,15 @@ Colors
     color: #F8F4FF;
 }
 
-.mid-lavendel-background {
-    background-color: #C4A9E8;
-}
-
 .lavendel {
     color: #8662CC;
 }
 
+
+
+.mid-lavendel-background {
+    background-color: #C4A9E8;
+}
 
 
 
@@ -32,6 +33,13 @@ General styles
     }
 }
 
+a.link {
+    text-decoration: none !important;
+}
+
+a.link:hover {
+    text-decoration: underline !important;
+}
 
 
 /*
