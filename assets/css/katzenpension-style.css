@@ -11,10 +11,44 @@ Colors
 }
 
 
+
+
+
+
+
+
 /*
-Placing adjustments
+Buttons
 */
 
+.btn-link {
+  display: inline-block;
+}
+
+.btn-custom {
+    display: inline-block;
+    color: #F8F4FF;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #8662CC;
+    border: 1px solid #7A60CC;
+    border-radius: 5px;
+    padding: 8px 16px;
+    line-height: 1.5;
+    transition: background-color 0.25s ease-in-out, border-color 0.25s ease-in-out;
+}
+
+.btn-custom:hover {
+    background-color: #9C79D8;
+    border-color: #8B6FD6;
+}
+
+
+@media screen and (max-width: 768px) {
+    .btn-custom {
+        font-size: 0.8em;
+    }
+}
 
 
 
