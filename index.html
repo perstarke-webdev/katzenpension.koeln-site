@@ -3,4 +3,36 @@ layout: default
 permalink: /
 ---
 
+<div id="slideshow-container">
+    <img src="/images/placeholders/katze1.jpeg" alt="Katze">
+    <img src="/images/placeholders/katze2.jpeg" alt="Katze">
+    <img src="/images/placeholders/katze3.jpeg" alt="Katze">
+</div>
+
+
+<script>
+  // JavaScript to handle the slideshow functionality
+  document.addEventListener("DOMContentLoaded", function () {
+    let currentSlide = 0;
+    const slides = document.querySelectorAll("#slideshow-container img");
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.style.opacity = i === index ? "1" : "0";
+      });
+    }
+
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % slides.length;
+      showSlide(currentSlide);
+    }
+
+    // Set the time interval (in milliseconds) to change slides automatically
+    const intervalTime = 3000; // 3 seconds
+    setInterval(nextSlide, intervalTime);
+  });
+</script>
+
+
+
 <h3> Buttons zu Bewertungen, Anfahrt/Öffnungszeiten, Kontakt </h3>
