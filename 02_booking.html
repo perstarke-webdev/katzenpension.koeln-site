@@ -4,4 +4,54 @@ permalink: /booking
 title: Buchung
 ---
 
+<div id="slideshow-container">
+    <img src="/images/placeholders/katze1.jpeg" alt="Katze">
+    <img src="/images/placeholders/katze2.jpeg" alt="Katze">
+    <img src="/images/placeholders/katze3.jpeg" alt="Katze">
+</div>
+
+
+<script>
+  // JavaScript to handle the slideshow functionality
+  document.addEventListener("DOMContentLoaded", function () {
+    let currentSlide = 0;
+    const slides = document.querySelectorAll("#slideshow-container img");
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.style.opacity = i === index ? "1" : "0";
+      });
+    }
+
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % slides.length;
+      showSlide(currentSlide);
+    }
+
+    // Set the time interval (in milliseconds) to change slides automatically
+    const intervalTime = 3000; // 3 seconds
+    setInterval(nextSlide, intervalTime);
+  });
+</script>
+
 <h1> Buchung </h1>
+
+<div class="border-box padding-box smaller-center-box">
+
+    <h3> <i class="fas fa-euro-sign"></i> Preise </h3>
+
+    <p class="text">
+
+        // Preisauflistung hier
+
+    </p>
+
+</div>
+
+<br><br>
+
+<p class="text">
+
+    // Formular hier
+
+</p>
