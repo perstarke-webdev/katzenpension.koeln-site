@@ -177,6 +177,63 @@ Boxes
     margin: auto
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 50px;
+}
+
+.box {
+    flex: 1 0 30%;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+}
+
+
+.stars {
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+
+.stars i {
+    color: gold;
+}
+
+.stars-text {
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+.rezension-box {
+    border: 2px solid #C4A9E8;
+    border-radius: 3px;
+    background-color: #F1DAFF;
+}
+
+.rezension-text {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+hr.rezension-sep {
+    border-top: 2px solid #8662CC;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 
 
 
