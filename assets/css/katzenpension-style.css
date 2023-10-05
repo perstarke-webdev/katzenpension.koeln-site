@@ -55,8 +55,13 @@ a.link:hover {
     font-style: italic;
 }
 
+a.active {
+    color: #000040 !important;
+}
 
-
+a.active:hover {
+    border: 1px solid #000040 !important;
+}
 
 
 

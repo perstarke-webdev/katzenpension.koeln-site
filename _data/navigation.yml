@@ -2,9 +2,13 @@
 
 - title: Home
   url: /
+  id: home
 - title: Unsere Pension
   url: /pension
+  id: pension
 - title: Buchung
   url: /booking
+  id: booking
 - title: Bedingungen
   url: /terms
+  id: terms
