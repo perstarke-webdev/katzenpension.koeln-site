@@ -16,6 +16,16 @@ Colors
     background-color: #C4A9E8;
 }
 
+.grey-background {
+    background-color: #DCDCDC;
+}
+
+
+
+
+
+
+
 
 
 
@@ -41,6 +51,53 @@ a.link:hover {
     text-decoration: underline !important;
 }
 
+.italic {
+    font-style: italic;
+}
+
+
+
+
+
+
+
+/*
+Maps
+*/
+
+.map-container {
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+    width: 700px;
+    max-width: 90vw;
+    margin: auto;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .map-container {
+        height: 280px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 Positioning
@@ -49,6 +106,11 @@ Positioning
 .margin-top {
     margin-top: 30px;
 }
+
+
+
+
+
 
 
 
@@ -85,6 +147,37 @@ Buttons
         font-size: 0.8em;
     }
 }
+
+
+
+
+/*
+Boxes
+*/
+
+.colored-box {
+    padding: 3px;
+    border-radius: 3px;
+    background-color: #C4A9E8;
+}
+
+.border-box {
+    padding: 3px;
+    border-radius: 3px;
+    border: 2px solid #C4A9E8;
+}
+
+.padding-box {
+    padding: 15px;
+}
+
+.smaller-center-box {
+    width: 600px;
+    max-width: 90vw;
+    margin: auto
+}
+
+
 
 
 
