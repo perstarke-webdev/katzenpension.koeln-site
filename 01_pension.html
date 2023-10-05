@@ -4,4 +4,88 @@ permalink: /pension
 title: Unsere Pension
 ---
 
+<div id="slideshow-container">
+    <img src="/images/placeholders/katze1.jpeg" alt="Katze">
+    <img src="/images/placeholders/katze2.jpeg" alt="Katze">
+    <img src="/images/placeholders/katze3.jpeg" alt="Katze">
+</div>
+
+
+<script>
+  // JavaScript to handle the slideshow functionality
+  document.addEventListener("DOMContentLoaded", function () {
+    let currentSlide = 0;
+    const slides = document.querySelectorAll("#slideshow-container img");
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.style.opacity = i === index ? "1" : "0";
+      });
+    }
+
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % slides.length;
+      showSlide(currentSlide);
+    }
+
+    // Set the time interval (in milliseconds) to change slides automatically
+    const intervalTime = 3000; // 3 seconds
+    setInterval(nextSlide, intervalTime);
+  });
+</script>
+
 <h1> Unsere Pension </h1>
+
+<p class="text">
+
+    Unsere Katzenpension hat einen großen Innenbereich und auch ein Außengehege. Schauen Sie sich gerne um!
+<br><br>
+    „Schöne helle Räume“ – „Viel Platz für Ihren Liebling zum Spielen“<br>
+    „Kratzbäume und Möglichkeiten zum Klettern“
+<br><br>
+    Auf eine vorherige Besichtigung legen wir großen Wert.
+
+</p>
+<br>
+
+
+<h3> Galerie </h3>
+
+<div class="gallery">
+    <a href="/images/gallery/1.webp" data-lightbox="gallery">
+        <img src="/images/gallery/1.webp" alt="">
+    </a>
+    <a href="/images/gallery/1.webp" data-lightbox="gallery">
+        <img src="/images/gallery/1.webp" alt="">
+    </a>
+    <a href="/images/gallery/2.webp" data-lightbox="gallery">
+        <img src="/images/gallery/2.webp" alt="">
+    </a>
+    <a href="/images/gallery/3.webp" data-lightbox="gallery">
+        <img src="/images/gallery/3.webp" alt="">
+    </a>
+    <a href="/images/gallery/4.webp" data-lightbox="gallery">
+        <img src="/images/gallery/4.webp" alt="">
+    </a>
+    <a href="/images/gallery/5.webp" data-lightbox="gallery">
+        <img src="/images/gallery/5.webp" alt="">
+    </a>
+    <a href="/images/gallery/7.webp" data-lightbox="gallery">
+        <img src="/images/gallery/7.webp" alt="">
+    </a>
+    <a href="/images/gallery/8.webp" data-lightbox="gallery">
+        <img src="/images/gallery/8.webp" alt="">
+    </a>
+    <a href="/images/gallery/9.webp" data-lightbox="gallery">
+        <img src="/images/gallery/9.webp" alt="">
+    </a>
+    <a href="/images/gallery/10.webp" data-lightbox="gallery">
+        <img src="/images/gallery/10.webp" alt="">
+    </a>
+    <a href="/images/gallery/11.webp" data-lightbox="gallery">
+        <img src="/images/gallery/11.webp" alt="">
+    </a>
+    <a href="/images/gallery/12.webp" data-lightbox="gallery">
+        <img src="/images/gallery/12.webp" alt="">
+    </a>
+</div>
