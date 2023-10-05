@@ -68,8 +68,8 @@ Maps
 .map-container {
     position: relative;
     overflow: hidden;
-    height: 350px;
-    width: 700px;
+    height: 420px;
+    width: 800px;
     max-width: 90vw;
     margin: auto;
 }
@@ -84,7 +84,7 @@ Maps
 
 @media screen and (max-width: 768px) {
     .map-container {
-        height: 280px;
+        height: 320px;
     }
 }
 
