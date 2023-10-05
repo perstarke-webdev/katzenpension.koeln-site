@@ -8,7 +8,6 @@
     <script src="{{ script_path }}"></script>
   {%- endfor -%}
 {%- else -%}
-  <script src="/assets/jquery/jquery-3.7.1-min.js"></script>
   <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
 {%- endif -%}
 
@@ -56,8 +55,8 @@ MathJax = {
 <script type="text/javascript" id="MathJax-script" async src="{{ mathjaxjs }}"></script>
 {% endif %}
 
-<script scr="/assets/lightbox/src/js/lightbox.js"></script>
 
+<script src="/assets/lightbox/src/js/lightbox-plus-jquery.js"></script>
 
 
 {%- if page.layout == "search" -%}
