@@ -344,3 +344,26 @@ Slideshow
     transition: opacity 1s ease-in-out;
 }
 
+
+
+
+
+
+/*
+Cookie Banner
+*/
+
+#cookie-banner {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    background-color: rgb(54, 69, 79);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 999;
+    font-size: 70%
+}
